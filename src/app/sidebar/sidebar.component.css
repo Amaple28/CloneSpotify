@@ -1,3 +1,4 @@
+
 .sidebar {
     height: 100%;
     width: 200px;
@@ -8,10 +9,13 @@
     background-color: #111;
     overflow-x: hidden;
     padding-top: 30px;
+    font-weight: bold;
+    /* espaço entre as letras */
+
 }
 
 .sidebar a {
-    padding: 6px 8px 6px 8px;
+    padding: 14px 8px 6px 8px;
     text-decoration: none;
     font-size: 16px;
     color: #818181;
@@ -29,12 +33,17 @@
 }
 
 .sidebar h6 {
-    padding: 30px 8px 0px 8px;
+    padding: 0px 8px 0px 8px;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 15px;
     color: #818181;
     display: block;
     margin-left: 5px;
+    margin: 20px 0px 10px 5px;
+}
+
+.sidebar i {
+    margin-right: 10px;
 }
 
 .create-playlist-btn i {
@@ -49,7 +58,7 @@
 .heart-playlist-btn i {
     text-align: center;
     background-color: #6c51e7;
-    color: black;
+    color: white;
     border-radius: 8%;
     /* margin-left: 10px;  */
     margin-right: 10px;
@@ -62,5 +71,5 @@
 
 .sidebar-divider {
     border-bottom: 1px solid #818181;
-    margin: 10px 30px;
+    margin: 15px 30px;
 }
